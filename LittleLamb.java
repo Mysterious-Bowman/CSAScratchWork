@@ -1,12 +1,13 @@
 public class LittleLamb {
    public static void main(String[] args) {
       System.out.print("Mary had a ");
-      LittleLamb();
-      LittleLamb();
-      LittleLamb();
+      littleLamb();
+      littleLamb();
+      littleLamb();
+      main();
    }
    
-   public static void LittleLamb() {
+   public static void littleLamb() {
       System.out.print("little lamb, ");
    }
 }
